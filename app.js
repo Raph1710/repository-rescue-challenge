@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send(`DevOps assessment app is running on port ${PORT}`);
 });
 
-app.listen(PORT || 3000, () => {
-  console.log(`Server started on port ${PORT || 3000}`);
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
